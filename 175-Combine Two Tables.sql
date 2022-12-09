@@ -11,7 +11,7 @@ insert into Address (addressId, personId, city, state) values ('1', '2', 'New Yo
 insert into Address (addressId, personId, city, state) values ('2', '3', 'Leetcode', 'California')
 --
 --
--- SQL query **
+-- SQL Query
 select p.firstName,p.lastName,a.city,a.state
 from Person p left join Address a
 on p.personId=a.personId;
